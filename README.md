@@ -3,12 +3,19 @@ An updated audiophile component Pi music player/streamer using [moOde Audio](htt
 
 This updated version of the [previous streamer](https://github.com/alanb128/audio-streaming-box) adds a full color display, Pi Pico microcontroller for powewr management and display switching. See the new video!
 
+This repository is a work in progress, with updates coming regularly - check back again soon!
+
 ## Hardware required
 
 
 ## Setup
 
 ### Hardware
+- Raspberry Pi 4, at least 2GB of RAM
+- 2" display: https://www.adafruit.com/product/4311
+- "Swirly aluminum" mounting grid: https://www.adafruit.com/product/5781
+- Analog Switch (2): https://www.adafruit.com/product/5932
+- DAC HAT or digital audio HAT
 
 ### Software - Pi
 - add the following to `/boot/firmware/config.txt`:
@@ -30,7 +37,7 @@ A stub lcd-updater.py script is located in the /var/local/www/commandw/ director
   
 - Issue docker compose up -d to start the container. It should always load on its own going forward.
 
-## Software - Pico
+### Software - Pico
 
 - install CircuitPython
   
