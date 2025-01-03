@@ -19,6 +19,8 @@ This repository is a work in progress, with updates coming regularly - check bac
 - Analog Switch (2): https://www.adafruit.com/product/5932
 - DAC HAT or digital audio HAT
 
+See the wiring guide pdf in this repo for details about how to connect everything together.
+
 ### Software - Pi
 - add the following to `/boot/firmware/config.txt`:
 ```
