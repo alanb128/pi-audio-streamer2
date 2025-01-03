@@ -3,7 +3,7 @@ An updated audiophile component Pi music player/streamer using [moOde Audio](htt
 
 <img src="moode-audio-box.jpg">
 
-This updated version of the [previous streamer](https://github.com/alanb128/audio-streaming-box) adds a full color display, Pi Pico microcontroller for powewr management and display switching. See the new video!
+This updated version of the [previous streamer](https://github.com/alanb128/audio-streaming-box) adds a full color display, Pi Pico microcontroller for power management and display switching. See the new video: https://youtu.be/QEAcYsGSqHk?si=DkREA6kypHM_2p7m
 
 This repository is a work in progress, with updates coming regularly - check back again soon!
 
