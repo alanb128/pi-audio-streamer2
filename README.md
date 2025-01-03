@@ -33,14 +33,14 @@ A stub lcd-updater.py script is located in the /var/local/www/commandw/ director
   
 - Clone this repo to ~ on device
   
-- Update /var/local/www/commandw/lcd_updater.py and restart.sh with the included modified files.
+- Update /var/local/www/commandw/lcd_updater.py with the included modified file.
   
 - Issue docker compose up -d to start the container. It should always load on its own going forward.
 
 ### Software - Pico
 
-- install CircuitPython
+- install [CircuitPython](https://circuitpython.org/)
   
-- Load drivers for
+- Install libraries for busio, terminalio, displayio, digitalio, and adafruit_adg72x
 
-- Load the file
+- add the pico.py file as the code.py file to run as default on the Pico
